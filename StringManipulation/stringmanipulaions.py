@@ -16,7 +16,7 @@ print("Reverse of ", text_string, "is ", text_string[::-1])
 print(text_string)
 listOfWords=text_string.split(" ")
 
-listOfWordsInReverse=[]
+listOfWordsInReverse=[] # This unused variable would have given a compilation error in GoLang!
 reversed_string=""
 for i in range(len(listOfWords)-1, -1, -1):
     reversed_string+=listOfWords[i]+" "
